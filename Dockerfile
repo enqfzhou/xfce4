@@ -8,4 +8,4 @@ RUN mkdir -p /root/.config/xfce4/xfconf/xfce-perchannel-xml
 COPY xsettings.xml /root/.config/xfce4/xfconf/xfce-perchannel-xml
 COPY xfce4-panel.xml /root/.config/xfce4/xfconf/xfce-perchannel-xml
 RUN mkdir -p /root/.config/autostart
-ENTRYPOINT startxfce4
+ENTRYPOINT start xfce4
